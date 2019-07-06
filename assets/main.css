@@ -1,0 +1,205 @@
+.tabela{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    background: #d0d0d0;
+}
+
+
+.nameTable{
+    text-align: center;
+    border-bottom: 1px solid;
+    height: 29px;
+}
+
+.corpo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-minmax{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.grupo-folga-itens{
+    display: flex;
+    flex-direction: row;
+}
+
+.grupo-folga-itens .item{
+    display: flex;
+    flex-direction: column;
+    width: 146px;
+}
+.meio p{
+    font-weight: bold;
+}
+.esquerda p{
+    font-weight: bold;
+}
+.direita p {
+    font-weight: bold;
+}
+.meio{
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;
+    border: 1px solid black;
+    padding: 5px;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 5px;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+.direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 5px;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+.min p{
+    font-weight: bold;
+}
+.max p{
+    font-weight: bold;
+}
+
+.min .min-itens{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.min-itens span{
+    padding: 1px;
+}
+.max-itens span{
+    padding: 1px;
+}
+.max .max-itens{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.resto{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 22px;
+}
+.entradas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-diametro{
+    display: flex;
+    width: 370px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+}
+.box-diametro label{
+    font-size: 18px;
+}
+
+.box-grupo-folga{
+    display: flex;
+    width: 370px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.box-grupo-folga label{
+    font-size: 18px;
+}
+
+.box-folga-bancada{
+    display: flex;
+    width: 370px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.box-folga-bancada label{
+    font-size: 18px;
+}
+.entradas label{
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+.box-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.3;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0.3;
+    padding: 3px;
+    background: #d0d0d0;
+    border-radius: 5px;
+}
+.resultado label{
+    font-weight: bold
+}
+
+.calcular{
+    border-radius: 5px;
+    font-size: 21px;
+    height: 43px;
+    width: 181px;
+    background: #2929a5;
+    border: 0px;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.calcular:hover{
+    color: #2929a5;
+    background: #fff;
+    border: 1px solid  #2929a5;
+}
+
+.entradas input,select{
+    font-size: 17px;
+    width: 88px;
+    border: 1px solid #00000069;
+    border-radius: 3px;
+}
+.entradas select{
+    width: 90px;
+} 
+
+.active{
+    color: #fff;
+    background: green;
+    border-radius: 5px;
+}
+.final{
+    padding: 5px;
+}
+.error{
+    border: 1px solid red !important;
+}
